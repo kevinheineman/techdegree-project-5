@@ -1,0 +1,42 @@
+/* ===================================== 
+   Page Styles
+======================================== */
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  padding: 0;
+  margin: 40px;
+  text-align: center;
+}
+
+input {
+  width: 75%;
+  max-width: 700px;
+  padding: 20px;
+  border: solid 2px #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+img {
+  min-width: 100%;
+}
+
+
+/* ===================================== 
+   Gallery Layout
+======================================== */
+
+.gallery {
+  max-width: 860px;
+  margin: 40px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+
+
